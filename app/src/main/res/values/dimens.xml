@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="marge_exterieure_standard">8sp</dimen>
+    <dimen name="marge_basse">30sp</dimen>
+    <dimen name="marge_haute">60sp</dimen>
+    <dimen name="taille_police_grand">23sp</dimen>
+    <dimen name="taille_police_moyen">19sp</dimen>
+</resources>

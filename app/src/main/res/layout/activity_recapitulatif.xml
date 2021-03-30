@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ReservationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="45"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/Iv_AfficheFilm"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/marge_haute"
+                android:layout_marginTop="@dimen/marge_exterieure_standard"
+                android:layout_marginEnd="@dimen/marge_haute"
+                android:layout_marginBottom="@dimen/marge_exterieure_standard"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/joker_affiche" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="55"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Tv_titreFilm2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/marge_exterieure_standard"
+                android:layout_marginBottom="@dimen/marge_basse"
+                android:text="@string/titreSeance2_Tv"
+                android:textSize="@dimen/taille_police_grand"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Tv_heureSeance2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/marge_exterieure_standard"
+                android:layout_marginBottom="@dimen/marge_basse"
+                android:text="@string/heureSeance_Tv"
+                android:textAlignment="center"
+                android:textSize="@dimen/taille_police_grand" />
+
+            <TextView
+                android:id="@+id/Tv_coutTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/marge_exterieure_standard"
+                android:layout_marginBottom="@dimen/marge_basse"
+                android:text="@string/CoutTotal_Tv"
+                android:textSize="@dimen/taille_police_grand"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Tv_TextStatutReservation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/marge_exterieure_standard"
+                android:text="@string/StatutReservation_Tv"
+                android:textSize="@dimen/taille_police_grand" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

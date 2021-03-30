@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">CinéDroid</string>
+
+    <!-- activity_seance -->
+    <string name="titreSeance_Tv">Titre</string>
+    <string name="realisateur_Tv">Réalisateur</string>
+    <string name="duree_Tv">durée</string>
+    <string name="langue_Tv">langue</string>
+
+    <!-- activity_reservation -->
+    <string name="titreSeance2_Tv">Titre</string>
+    <string name="nombrePlaces_Tv">nombre de  &#xa; places</string>
+    <string name="nombrePlacesNormal_Tv">0</string>
+    <string name="nombrePlacesEtudiant_Tv">0</string>
+    <string name="nombrePlacesJeune_Tv">0</string>
+    <string name="nomTarifNormal_Tv">Normal</string>
+    <string name="nomTarifEtudiant_Tv">Etudiant</string>
+    <string name="nomTarifJeune_Tv">Jeune</string>
+    <string name="coutTarifNormal_Tv">9,60€</string>
+    <string name="coutTarifJeune_Tv">7€</string>
+    <string name="coutTarifEtudiant_Tv">5€</string>
+    <string name="tarif_Tv">Tarif</string>
+    <string name="heureSeance_Tv">Séance de &#xa; 11h00</string>
+    <string name="reserver_bt">Reserver</string>
+    <string name="plus_bt">+</string>
+    <string name="moins_bt">-</string>
+
+    <!-- activity_recapitulatif-->
+    <string name="CoutTotal_Tv">cout total : X,X €</string>
+    <string name="StatutReservation_Tv">Réservation effectuée</string>
+</resources>
