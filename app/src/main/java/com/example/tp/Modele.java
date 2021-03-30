@@ -14,9 +14,9 @@ public class Modele {
     static final double TARIF_NORMAL = 9.60;
 
     static int nbPlaceEtudiant = 0;
-    static final double TARIF_ETUDIANT = 7;
+    static final double TARIF_ETUDIANT = 5;
 
     static int nbPlaceJeune = 0;
-    static final double TARIF_JEUNE = 5;
+    static final double TARIF_JEUNE = 7;
 
 }

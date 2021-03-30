@@ -42,6 +42,7 @@ public class ReservationActivity extends AppCompatActivity {
         tv_heure = findViewById(R.id.Tv_heureSeance);
         tv_heure.setText("Séance de \n"+Modele.filmCourant.getHeure());
 
+        // Affichage du nombre de places réservées
         Tv_nombreTarifNormal = findViewById(R.id.Tv_nombreTarifNormal);
         Tv_nombreTarifNormal.setText(String.valueOf(Modele.nbPlaceNormal));
 
